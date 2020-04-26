@@ -1,0 +1,21 @@
+input[type="submit"]{
+    text-align: center;
+    border: 1px solid;
+    transition: .2s linear;
+    font-family: "Open Sans",sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+input[type="submit"]:hover{
+    border-radius: 30px;
+}
+
+input[type="submit"]{
+    color: #2980b9;
+}
+
+input[type="submit"]:hover{
+    background: #2980b9;
+    color: #fff;
+}

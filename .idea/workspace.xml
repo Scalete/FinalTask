@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="FinalTaskTrains:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e7df7ed2-4562-41aa-8b03-85a129ebb6b1" name="Default Changelist" comment="FinalTask">
+      <change afterPath="$PROJECT_DIR$/../FinalTask/FinalTask.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/FinalTaskTrains_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalTaskTrains.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/META-INF/FinalTaskTrains.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/admin.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/db/DBManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/db/Fields.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/db/entity/Carriage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/db/entity/IntermediateStation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/db/entity/Rout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/db/entity/Station.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/db/entity/Ticket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/db/entity/Train.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/db/entity/Trip.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/db/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/db/web/filter/IsLoginFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/db/web/filter/admin/AdminIntermediateStationFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/db/web/filter/admin/AdminRoutFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/db/web/filter/admin/AdminStationFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/db/web/filter/user/UserEditAccountFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/db/web/filter/user/UserRegistrationFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/exeption/DBException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/exeption/Messages.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/path/Path.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/servlets/admin/ControllerLoadAdminPanel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/servlets/admin/routs/ControllerAddRout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/servlets/admin/routs/ControllerDeleteRout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/servlets/admin/routs/ControllerEditRout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/servlets/admin/routs/ControllerLoadRoutInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/servlets/admin/routs/intermediate_rout/ControllerAddIntermediateRout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/servlets/admin/routs/intermediate_rout/ControllerDeleteIntermediateStation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/servlets/admin/routs/intermediate_rout/ControllerEditIntermediateStation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/servlets/admin/stations/ControllerAddStation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/servlets/admin/stations/ControllerDeleteStation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/servlets/admin/stations/ControllerEditStation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/servlets/user/ControllerLoginUserOrAdmin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/servlets/user/ControllerMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/servlets/user/ControllerRegistrationUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/servlets/user/account/ControllerEditUserAccount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/servlets/user/account/ControllerLoadUserAccount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/servlets/user/search/ControllerSearchRout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/servlets/user/search/ControllerTripInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/servlets/user/ticket/ControllerBuyTicket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/classes/servlets/user/ticket/ControllerFormTicket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/lib/taglibs-standard-compat-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/lib/taglibs-standard-jstlel-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/admin/admin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/admin/rout/add_intermediate_station.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/admin/rout/add_rout.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/admin/rout/edit_rout.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/admin/rout/info/intermediate_station/edit_intermediate_station.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/admin/rout/info/rout_info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/admin/station/add_station.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/admin/station/edit_station.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/auto_complete/JS/jquery-1.4.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/auto_complete/JS/jquery.autocomplete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/auto_complete/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/auto_complete/images/indicator.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/auto_complete/images/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/auto_complete/images/shadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/autocomplete_stations.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/style/background/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/style/button/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/style/form/navbar/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/style/form/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/style/login_registration/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/style/tables/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/style/ticket/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/task.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/user/account/account.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/user/account/edit_account.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/user/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/user/registration.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/user/search/search_rout_result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/user/search/trip_info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FinalTaskTrains_war_exploded/user/ticket/ticket.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/META-INF/FinalTaskTrains.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/admin.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/db/DBManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/db/Fields.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/db/entity/Carriage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/db/entity/IntermediateStation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/db/entity/Rout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/db/entity/Station.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/db/entity/Ticket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/db/entity/Train.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/db/entity/Trip.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/db/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/db/web/filter/IsLoginFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/db/web/filter/admin/AdminIntermediateStationFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/db/web/filter/admin/AdminRoutFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/db/web/filter/admin/AdminStationFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/db/web/filter/user/UserEditAccountFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/db/web/filter/user/UserRegistrationFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/exeption/DBException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/exeption/Messages.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/path/Path.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/servlets/admin/ControllerLoadAdminPanel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/servlets/admin/routs/ControllerAddRout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/servlets/admin/routs/ControllerDeleteRout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/servlets/admin/routs/ControllerEditRout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/servlets/admin/routs/ControllerLoadRoutInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/servlets/admin/routs/intermediate_rout/ControllerAddIntermediateRout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/servlets/admin/routs/intermediate_rout/ControllerDeleteIntermediateStation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/servlets/admin/routs/intermediate_rout/ControllerEditIntermediateStation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/servlets/admin/stations/ControllerAddStation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/servlets/admin/stations/ControllerDeleteStation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/servlets/admin/stations/ControllerEditStation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/servlets/user/ControllerLoginUserOrAdmin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/servlets/user/ControllerMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/servlets/user/ControllerRegistrationUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/servlets/user/account/ControllerEditUserAccount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/servlets/user/account/ControllerLoadUserAccount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/servlets/user/search/ControllerSearchRout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/servlets/user/search/ControllerTripInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/servlets/user/ticket/ControllerBuyTicket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalTaskTrains/servlets/user/ticket/ControllerFormTicket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/dbschema.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/final_railroad_carriage.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/final_railroad_intermediate_station.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/final_railroad_place_type.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/final_railroad_rout.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/final_railroad_station.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/final_railroad_ticket.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/final_railroad_train.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/final_railroad_trip.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/final_railroad_user.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/admin.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/DBManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/Fields.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/entity/Carriage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/entity/IntermediateStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/entity/Rout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/entity/Station.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/entity/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/entity/Train.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/entity/Trip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/web/filter/IsLoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/web/filter/admin/AdminIntermediateStationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/web/filter/admin/AdminRoutFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/web/filter/admin/AdminStationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/web/filter/user/UserEditAccountFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/web/filter/user/UserRegistrationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exeption/DBException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exeption/Messages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/path/Path.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlets/admin/ControllerLoadAdminPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlets/admin/routs/ControllerAddRout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlets/admin/routs/ControllerDeleteRout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlets/admin/routs/ControllerEditRout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlets/admin/routs/ControllerLoadRoutInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlets/admin/routs/intermediate_rout/ControllerAddIntermediateRout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlets/admin/routs/intermediate_rout/ControllerDeleteIntermediateStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlets/admin/routs/intermediate_rout/ControllerEditIntermediateStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlets/admin/stations/ControllerAddStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlets/admin/stations/ControllerDeleteStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlets/admin/stations/ControllerEditStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlets/user/ControllerLoginUserOrAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlets/user/ControllerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlets/user/ControllerRegistrationUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlets/user/account/ControllerEditUserAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlets/user/account/ControllerLoadUserAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlets/user/search/ControllerSearchRout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlets/user/search/ControllerTripInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlets/user/ticket/ControllerBuyTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlets/user/ticket/ControllerFormTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/taglibs-standard-compat-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/taglibs-standard-jstlel-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/admin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/rout/add_intermediate_station.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/rout/add_rout.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/rout/edit_rout.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/rout/info/intermediate_station/edit_intermediate_station.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/rout/info/rout_info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/station/add_station.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/station/edit_station.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/auto_complete/JS/jquery-1.4.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/auto_complete/JS/jquery.autocomplete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/auto_complete/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/auto_complete/images/indicator.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/auto_complete/images/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/auto_complete/images/shadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/autocomplete_stations.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/style/background/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/style/button/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/style/form/navbar/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/style/form/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/style/login_registration/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/style/tables/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/style/ticket/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/task.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/user/account/account.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/user/account/edit_account.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/user/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/user/registration.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/user/search/search_rout_result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/user/search/trip_info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/user/ticket/ticket.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTask_repeat/FinalTask_repeat.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTask_repeat/web/web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice10/Practice10.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice2/Practice2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice3/Practice3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/Practice4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice5/Practice5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/Practice6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice7/Practice7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice8/Practice8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice8/palaguta/Practice1/Practice1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice8/palaguta/Practice2/Practice2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice8/palaguta/Practice3/Practice3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice8/palaguta/Practice4/Practice4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice8/palaguta/Practice5/Practice5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice8/palaguta/Practice6/Practice6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice8/palaguta/Practice7/Practice7.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1YtxiAGlfOoEvse7aEtK3JAOWsG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="findjar.last.used.dir" value="$PROJECT_DIR$/src/exeption" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\EpamPrograms\FinalTaskTrains\web\style\form" />
+      <recent name="D:\EpamPrograms\FinalTaskTrains\web\style\ticket" />
+      <recent name="D:\EpamPrograms\FinalTaskTrains\web\style\login" />
+      <recent name="D:\EpamPrograms\FinalTaskTrains\web\user\ticket" />
+      <recent name="D:\EpamPrograms\FinalTaskTrains\web\user\search" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="servlets" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\EpamPrograms\FinalTaskTrains\web\WEB-INF" />
+      <recent name="D:\EpamPrograms\FinalTaskTrains\src" />
+      <recent name="D:\EpamPrograms\FinalTaskTrains\web\WEB-INF\lib" />
+      <recent name="D:\EpamPrograms\FinalTaskTrains\src\exeption" />
+      <recent name="D:\EpamPrograms\FinalTaskTrains\web\user" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.27" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.27" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/main.jsp" />
+      <option name="START_JAVASCRIPT_DEBUGGER" value="true" />
+      <deployment>
+        <artifact name="FinalTaskTrains:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_27_FinalTaskTrains" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52790" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="FinalTaskTrains:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e7df7ed2-4562-41aa-8b03-85a129ebb6b1" name="Default Changelist" comment="" />
+      <created>1583775815904</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583775815904</updated>
+      <workItem from="1583775818703" duration="797000" />
+      <workItem from="1583837838047" duration="12738000" />
+      <workItem from="1583906528629" duration="14143000" />
+      <workItem from="1583947959611" duration="1889000" />
+      <workItem from="1584010820908" duration="965000" />
+      <workItem from="1584014759160" duration="5357000" />
+      <workItem from="1584095538469" duration="4807000" />
+      <workItem from="1584131748247" duration="1092000" />
+      <workItem from="1584195706371" duration="931000" />
+      <workItem from="1584200462691" duration="9440000" />
+      <workItem from="1584227337422" duration="1061000" />
+      <workItem from="1584263922275" duration="2456000" />
+      <workItem from="1584357674615" duration="3579000" />
+      <workItem from="1584453351650" duration="5826000" />
+      <workItem from="1584527304492" duration="7361000" />
+      <workItem from="1584613015076" duration="4419000" />
+      <workItem from="1584623492033" duration="133000" />
+      <workItem from="1584623641127" duration="487000" />
+      <workItem from="1584624144485" duration="844000" />
+      <workItem from="1584631125084" duration="4317000" />
+      <workItem from="1584639249691" duration="4622000" />
+      <workItem from="1584700797024" duration="13834000" />
+      <workItem from="1584790438984" duration="15732000" />
+      <workItem from="1584885129418" duration="16307000" />
+      <workItem from="1584965195142" duration="6693000" />
+      <workItem from="1585070494057" duration="599000" />
+      <workItem from="1585152048561" duration="592000" />
+      <workItem from="1585222068223" duration="5021000" />
+      <workItem from="1585231095605" duration="1710000" />
+      <workItem from="1585249961938" duration="3805000" />
+      <workItem from="1585304066486" duration="1157000" />
+      <workItem from="1585309239166" duration="11916000" />
+      <workItem from="1585402962150" duration="14253000" />
+      <workItem from="1585483455106" duration="14283000" />
+      <workItem from="1585567578476" duration="5130000" />
+      <workItem from="1585580489399" duration="7156000" />
+      <workItem from="1585663002114" duration="12211000" />
+      <workItem from="1585687453112" duration="8436000" />
+      <workItem from="1585738871824" duration="5753000" />
+      <workItem from="1585838316532" duration="1877000" />
+      <workItem from="1585938041633" duration="61000" />
+      <workItem from="1586015419958" duration="8967000" />
+      <workItem from="1586088392898" duration="3282000" />
+      <workItem from="1586201354967" duration="7000" />
+      <workItem from="1586201461734" duration="3256000" />
+      <workItem from="1586256065218" duration="19673000" />
+      <workItem from="1586359593776" duration="3013000" />
+      <workItem from="1586431584708" duration="13926000" />
+      <workItem from="1586461866882" duration="4978000" />
+      <workItem from="1586512120273" duration="19719000" />
+      <workItem from="1586608123627" duration="19237000" />
+      <workItem from="1586685555977" duration="8375000" />
+      <workItem from="1586794645912" duration="599000" />
+      <workItem from="1586869344399" duration="1214000" />
+      <workItem from="1586950618836" duration="11234000" />
+      <workItem from="1587032814244" duration="9047000" />
+      <workItem from="1587074624059" duration="4559000" />
+      <workItem from="1587111283223" duration="18839000" />
+      <workItem from="1587206360381" duration="18338000" />
+      <workItem from="1587293131367" duration="14382000" />
+      <workItem from="1587326530670" duration="8845000" />
+      <workItem from="1587376544854" duration="3241000" />
+      <workItem from="1587391130786" duration="3717000" />
+      <workItem from="1587561618097" duration="303000" />
+      <workItem from="1587640160312" duration="9401000" />
+      <workItem from="1587719394034" duration="2763000" />
+      <workItem from="1587726074276" duration="1103000" />
+      <workItem from="1587727198861" duration="293000" />
+      <workItem from="1587727514678" duration="411000" />
+      <workItem from="1587743149940" duration="1058000" />
+      <workItem from="1587744224476" duration="8001000" />
+      <workItem from="1587761327948" duration="2568000" />
+      <workItem from="1587801812091" duration="9191000" />
+      <workItem from="1587819300163" duration="8875000" />
+      <workItem from="1587847720445" duration="14670000" />
+      <workItem from="1587863297923" duration="249000" />
+      <workItem from="1587866071359" duration="265000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="FinalTask" />
+    <option name="LAST_COMMIT_MESSAGE" value="FinalTask" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Inspections" timestamp="1587333075763">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1587333075763" />
+    <state x="361" y="71" key="#SQL_Dialects" timestamp="1585677841487">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#SQL_Dialects/0.0.1536.824@0.0.1536.824" timestamp="1585677841487" />
+    <state x="361" y="71" key="#SQL_Resolution_Scopes" timestamp="1585677003935">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#SQL_Resolution_Scopes/0.0.1536.824@0.0.1536.824" timestamp="1585677003935" />
+    <state x="465" y="23" key="#Tomcat_9.0.27" timestamp="1584227619934">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="23" key="#Tomcat_9.0.27/0.0.1536.824@0.0.1536.824" timestamp="1584227619934" />
+    <state x="361" y="71" key="#Tomcat_Server" timestamp="1584227618052">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Tomcat_Server/0.0.1536.824@0.0.1536.824" timestamp="1584227618052" />
+    <state x="343" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587309224747">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="343" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1587309224747" />
+    <state x="538" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1587221683226">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="538" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1587221683226" />
+    <state x="499" y="30" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1584227603589">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="30" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1536.824@0.0.1536.824" timestamp="1584227603589" />
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1584639185090">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1584639185090" />
+    <state x="504" y="297" width="528" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1587296611838">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="504" y="297" width="528" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1587296611838" />
+    <state x="320" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587854232833">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="320" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1587854232833" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587725367210">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1587725367210" />
+    <state x="526" y="160" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1587856751522">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="526" y="160" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1587856751522" />
+    <state x="372" y="7" key="CommitChangelistDialog2" timestamp="1587866333176">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="372" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587866333176" />
+    <state x="619" y="290" key="DBNavigator.ConnectionAuthenticationDialog" timestamp="1583916401624">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="619" y="290" key="DBNavigator.ConnectionAuthenticationDialog/0.0.1536.824@0.0.1536.824" timestamp="1583916401624" />
+    <state x="418" y="112" key="DBNavigator.ConnectionInfoDialog" timestamp="1586267460138">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="418" y="112" key="DBNavigator.ConnectionInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1586267460138" />
+    <state x="299" y="67" key="DBNavigator.MethodExecutionHistoryDialog" timestamp="1587221465230">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="DBNavigator.MethodExecutionHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1587221465230" />
+    <state x="299" y="67" key="DBNavigator.ProjectSettingsDialog" timestamp="1587377259212">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="84" y="38" key="DBNavigator.ProjectSettingsDialog/0.0.1024.728@0.0.1024.728" timestamp="1586031737272" />
+    <state x="299" y="67" key="DBNavigator.ProjectSettingsDialog/0.0.1536.824@0.0.1536.824" timestamp="1587377259212" />
+    <state x="506" y="165" key="DetectedRootsChooserDialog" timestamp="1587808534822">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="506" y="165" key="DetectedRootsChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1587808534822" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1587808663228">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587808663228" />
+    <state width="1493" height="156" key="GridCell.Tab.0.bottom" timestamp="1587866229264">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="156" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587866229264" />
+    <state width="1493" height="156" key="GridCell.Tab.0.center" timestamp="1587866229264">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="156" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587866229264" />
+    <state width="1493" height="156" key="GridCell.Tab.0.left" timestamp="1587866229264">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="156" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587866229264" />
+    <state width="1493" height="156" key="GridCell.Tab.0.right" timestamp="1587866229264">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="156" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587866229264" />
+    <state width="1493" height="156" key="GridCell.Tab.1.bottom" timestamp="1587866229264">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="156" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587866229264" />
+    <state width="1493" height="156" key="GridCell.Tab.1.center" timestamp="1587866229264">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="156" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1587866229264" />
+    <state width="1493" height="156" key="GridCell.Tab.1.left" timestamp="1587866229264">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="156" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1587866229264" />
+    <state width="1493" height="156" key="GridCell.Tab.1.right" timestamp="1587866229264">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="156" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1587866229264" />
+    <state width="1493" height="156" key="GridCell.Tab.2.bottom" timestamp="1587866229265">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="156" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587866229265" />
+    <state width="1493" height="156" key="GridCell.Tab.2.center" timestamp="1587866229265">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="156" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1587866229265" />
+    <state width="1493" height="156" key="GridCell.Tab.2.left" timestamp="1587866229265">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="156" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1587866229265" />
+    <state width="1493" height="156" key="GridCell.Tab.2.right" timestamp="1587866229265">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="156" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1587866229265" />
+    <state width="1024" height="185" key="GridCell.Tab.3.bottom" timestamp="1587803150134">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="185" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587803150134" />
+    <state width="1024" height="185" key="GridCell.Tab.3.center" timestamp="1587803150134">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="185" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1587803150134" />
+    <state width="1024" height="185" key="GridCell.Tab.3.left" timestamp="1587803150134">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="185" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1587803150134" />
+    <state width="1024" height="185" key="GridCell.Tab.3.right" timestamp="1587803150134">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="185" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1587803150134" />
+    <state width="1024" height="187" key="GridCell.Tab.6.bottom" timestamp="1586034021622">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="187" key="GridCell.Tab.6.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586034021622" />
+    <state width="1024" height="187" key="GridCell.Tab.6.center" timestamp="1586034021622">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="187" key="GridCell.Tab.6.center/0.0.1536.824@0.0.1536.824" timestamp="1586034021622" />
+    <state width="1024" height="187" key="GridCell.Tab.6.left" timestamp="1586034021622">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="187" key="GridCell.Tab.6.left/0.0.1536.824@0.0.1536.824" timestamp="1586034021622" />
+    <state width="1024" height="187" key="GridCell.Tab.6.right" timestamp="1586034021622">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="187" key="GridCell.Tab.6.right/0.0.1536.824@0.0.1536.824" timestamp="1586034021622" />
+    <state x="106" y="74" width="1038" height="750" key="SettingsEditor" timestamp="1587863424108">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="106" y="74" width="1038" height="750" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587863424108" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1583775826021">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583775826021" />
+    <state x="481" y="343" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1587808420780">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="481" y="343" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1587808420780" />
+    <state x="270" y="141" key="com.intellij.javaee.MapExternalResourceDialog" timestamp="1587335306193">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="141" key="com.intellij.javaee.MapExternalResourceDialog/0.0.1536.824@0.0.1536.824" timestamp="1587335306193" />
+    <state x="0" y="0" width="738" height="824" key="find.popup" timestamp="1587221404917">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="0" width="738" height="824" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1587221404917" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1587295815376">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1587295815376" />
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup" timestamp="1587859079901">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1587859079901" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="enter_departure_station" language="JAVA" />
+        <watch expression="list_trip.get(0)" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
